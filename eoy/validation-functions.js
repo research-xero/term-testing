@@ -74,7 +74,7 @@ $(document).ready(function() {
         var bv = $form.data('bootstrapValidator');
 
         // Use Ajax to submit form data
-        var url = 'https://script.google.com/macros/s/AKfycbzBJyyqHoTsSjisr5EMfVMsMn558snzg2SrkOZPIlHO0GpBPcaN/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbzBJyyqHoTsSjisr5EMfVMsMn558snzg2SrkOZPIlHO0GpBPcaN/exec?callback=googleDocCallback';
         var redirectUrl = './success-page.html';
         // show the loading
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
@@ -92,3 +92,5 @@ $(document).ready(function() {
             });
     });
 });
+
+window.googleDocCallback = function () { return true; };
