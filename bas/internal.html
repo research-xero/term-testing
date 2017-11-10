@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Business Activity Statements – Cloze test</title>
+  <!-- bootstrap & fontawesome css -->
+  <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
+
+  <!-- BootstrapValidator CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- BootstrapValidator JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+
+  <!-- XUI Styles -->
+  <link href="https://edge.xero.com/style/xui/12.0.0/xui.css" rel="stylesheet" />
+
+  <!-- Animated Loading Icon -->
+  <style type="text/css">
+  .glyphicon-refresh-animate {
+      -animation: spin .7s infinite linear;
+      -webkit-animation: spin2 .7s infinite linear;
+  }
+
+  @-webkit-keyframes spin2 {
+      from { -webkit-transform: rotate(0deg);}
+      to { -webkit-transform: rotate(360deg);}
+  }
+
+  @keyframes spin {
+      from { transform: scale(1) rotate(0deg);}
+      to { transform: scale(1) rotate(360deg);}
+  }
+  p {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 50px;
+  }
+  .xui-form-layout {
+    margin: auto;
+    max-width: 90%;
+  }
+  .xui-input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #028DDE;
+    display: inline-block;
+    margin: 0px 3px;
+    min-height: 30px;
+    max-width: none;
+    min-width: 40px;
+    margin: 0 5px;
+    padding: 0px 0px 5px;
+    width: auto;
+    transition: all 150ms ease;
+  }
+  .xui-input:focus,
+  .xui-input:hover {
+    border-bottom-color: #FF6496;
+    box-shadow: none;
+    transition: all 150ms ease;
+  }
+  [contenteditable="true"] {
+    transition: all 150ms ease;
+    display: inline-block;
+    min-width: 40px;
+  }
+  [contenteditable="true"]:focus {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1.5;
+    position: relative;
+  }
+  </style>
+  <div id="header"></div>
+  <script type="application/json" id="header-data" data-render-to="#header">
+    {
+      "navigation":[ ]
+    }
+  </script>
+  <link rel="stylesheet" href="https://edge.xero.com/platform/header/4.0.1/header.min.css" />
+  <script src="https://edge.xero.com/platform/header/4.0.1/header.min.js"></script>
+  <script src="https://edge.xero.com/style/xui-icon/4.17.0/xuiIconBlobES5.js "></script>
+</head>
+
+<body class="xui-body">
+
+  <div id="header"></div>
+
+  <header class="xui-pageheading xui-u-flex xui-u-flex-verticalalign-center xui-margin-bottom-large xui-padding-horizontal">
+    <div class="xui-pageheading--content xui-pageheading--content-layout xui-padding-horizontal xui-page-width-standard">
+      <a class="xui-u-fullwidth" href="index.html"></a>
+      <div class="xui-u-fullwidth">
+        <div class="xui-row-flex xui-space-between">
+          <div class="xui-column-6-of-12">
+            <h1 class="xui-pageheading--title xui-u-fullwidth"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="xui-margin-vertical-large xui-padding-horizontal xui-page-width-standard">
+    <form class="xui-panel user-test-form" role="form" id="test-form">
+      <header class="xui-panel--header xui-padding-horizontal-small xui-u-flex xui-u-flex-verticallycentered">
+        <div class="xui-panel--heading xui-margin-left-small">Please fill in the blanks</div>
+      </header>
+      <div class="xui-panel--section xui-padding-horizontal-large xui-padding-top-xlarge xui-padding-bottom-large">
+        <div class="xui-form-layout">
+
+          <p class="">
+            At the end of the
+            <span class="xui-input form_field_1" type="text" name="form_field_1" id="form_field_1" placeholder="" contenteditable="true" autofocus /></span> period, I get a letter from
+            <span class="xui-input form_field_2" type="text" name="form_field_2" id="form_field_2" placeholder="" contenteditable="true" autofocus /></span> telling me it's time to
+            <span class="xui-input form_field_3" type="text" name="form_field_3" id="form_field_3" placeholder="" contenteditable="true" /></span> my BAS. If I need help, I talk about it with my
+            <span class="xui-input" type="text" name="form_field_4" id="form_field_4" placeholder="" contenteditable="true" /></span>. Then I use my accounting software to <span class="xui-input" type="text" name="form_field_5" id="form_field_5" placeholder="" contenteditable="true" /></span> the BAS figures. Once I’m happy with it, I
+            <span class="xui-input" type="text" name="form_field_6" id="form_field_6" placeholder="" contenteditable="true" /></span> the BAS to the
+            <span class="xui-input" type="text" name="form_field_7" id="form_field_7" placeholder="" contenteditable="true" /></span> from my accounting software. I’ll get a notification once my BAS has been
+            <span class="xui-input" type="text" name="form_field_8" id="form_field_8" placeholder="" contenteditable="true" /></span>.
+          </p>
+          <input class="field_1" type="hidden" name="field_1" id="field_1" />
+          <input class="field_2" type="hidden" name="field_2" id="field_2" />
+          <input class="field_3" type="hidden" name="field_3" id="field_3" />
+          <input class="field_4" type="hidden" name="field_4" id="field_4" />
+          <input class="field_5" type="hidden" name="field_5" id="field_5" />
+          <input class="field_6" type="hidden" name="field_6" id="field_6" />
+          <input class="field_7" type="hidden" name="field_7" id="field_7" />
+          <input class="field_8" type="hidden" name="field_8" id="field_8" />
+          <input class="version" type="hidden" name="version" id="version" value="BAS_Internal" />
+        </div>
+      </div>
+
+      <footer class="xui-panel--footer xui-actions xui-actions-layout xui-padding-large">
+        <button type="submit" id="postForm" class="xui-button xui-button-main xui-actions--primary" >Done</button>
+      </footer>
+
+    </form>
+  </main>
+</body>
+<script src="./validation-functions.js"></script>
+<script>
+  document.getElementById("form_field_1").addEventListener("input", function() {
+    document.getElementById("field_1").value =
+      document.getElementById("form_field_1").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_2").addEventListener("input", function() {
+    document.getElementById("field_2").value =
+      document.getElementById("form_field_2").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_3").addEventListener("input", function() {
+    document.getElementById("field_3").value =
+      document.getElementById("form_field_3").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_4").addEventListener("input", function() {
+    document.getElementById("field_4").value =
+      document.getElementById("form_field_4").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_5").addEventListener("input", function() {
+    document.getElementById("field_5").value =
+      document.getElementById("form_field_5").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_6").addEventListener("input", function() {
+    document.getElementById("field_6").value =
+      document.getElementById("form_field_6").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_7").addEventListener("input", function() {
+    document.getElementById("field_7").value =
+      document.getElementById("form_field_7").innerHTML;
+    return true;
+  }, false);
+  document.getElementById("form_field_8").addEventListener("input", function() {
+    document.getElementById("field_8").value =
+      document.getElementById("form_field_8").innerHTML;
+    return true;
+  }, false);
+
+  $("#form_field_1, #form_field_2, #form_field_3, #form_field_4, #form_field_5, #form_field_6, #form_field_7, #form_field_8").on("click", function () {
+    document.execCommand('selectAll', false, null);
+  });
+
+  document.getElementById("version").value = "BAS_Internal";
+
+</script>
+
+</html>
